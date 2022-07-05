@@ -1,0 +1,15 @@
+#cont .container .card .cardimage {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+#cont .container .card{
+    border-radius: 10px;
+}
+@media(max-width:768px){
+    #cont .container .card .cardimage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

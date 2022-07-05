@@ -1,0 +1,29 @@
+#websites .container .row .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+#carousel .container .carousel-inner .car-image{
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+}
+#talksec{
+    height: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:768px){
+    #websites .container .row .card-img-top {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #carousel .container .carousel-inner .car-image{
+        width: 100%;
+        height: 60vw;
+        object-fit: cover;
+    }
+}

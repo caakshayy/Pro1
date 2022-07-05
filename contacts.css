@@ -1,0 +1,23 @@
+#social .container i{
+    font-size: 30px;
+}
+#map .container .maparea{
+    width: 600px;
+    height: 465px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+
+}
+#map .container .maparea iframe{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:768px){
+    #map .container .maparea{
+        width: 100%;
+        height: 400px;
+    }
+
+}
